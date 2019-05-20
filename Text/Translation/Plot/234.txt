@@ -1,0 +1,8 @@
+This device will start[0x8018]
+the self-destruct[0x8018]
+sequence of the base![0x8018]
+[0x8018]
+In just 5 minutes[0x8018]
+everything will be gone.[0x8018]
+This will be my end...[0x8018]
+but also yours![0x8018]

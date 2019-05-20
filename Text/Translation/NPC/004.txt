@@ -1,0 +1,4 @@
+Masao[0x8005]
+Level O1[0x8007]
+Action Mask[0x800b]
+Completed[0x8008]

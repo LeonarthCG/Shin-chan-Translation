@@ -1,0 +1,2 @@
+Hey, the boss[0x8017]
+is just ahead![0x8017]

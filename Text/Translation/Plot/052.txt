@@ -1,0 +1,4 @@
+Shinnosuke![0x800c]
+The Action Beam![0x800f]
+With the Action Stone,[0x8016]
+you too can cast it![0x8018]

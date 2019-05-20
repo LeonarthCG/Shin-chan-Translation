@@ -1,0 +1,326 @@
+#include "levels/Installer.event"
+
+// - in memorium -
+PUSH
+ORG $4E72A8
+WORD memoriumpng-currentoffset; WORD ((240*160)/2)
+ORG $4E0054
+WORD memoriummap-currentoffset
+POP
+ALIGN 4
+memoriummap:
+SHORT 1 1 30 20
+#incbin "other/memorium.map.bin"
+ALIGN 4
+memoriumpng:
+#incext png2dmp "other/memorium.png"
+
+//thanks for playing
+PUSH
+ORG $DD351C
+WORD thankspng-currentoffset; WORD ((160*56)/2)
+ORG $EFBB58
+WORD thanksmap-currentoffset
+POP
+ALIGN 4
+thanksmap:
+SHORT 1 1 22 12
+#incbin "other/thanks.map.bin"
+ALIGN 4
+thankspng:
+#incext compress "other/thanks.img.bin"
+
+// - opening cinematic -
+PUSH
+ORG $DD30A8
+WORD pleaserestpng-currentoffset; WORD ((176*104)/2)
+ORG $EFBA74
+WORD pleaserestmap-currentoffset
+ORG $DD30BC
+WORD titlepng-currentoffset
+POP
+ALIGN 4
+pleaserestmap:
+SHORT 1 1 22 12
+#incbin "other/pleaserest.map.bin"
+ALIGN 4
+pleaserestpng:
+#incext compress "other/pleaserest.img.bin"
+ALIGN 4
+titlepng:
+#incext compress "other/title.img.bin"
+
+PUSH
+// - collection screen -
+ORG $4FED10
+#incext png2dmp "collection/4FED10.png" //collection
+ORG $502890
+#incext png2dmp "collection/502890.png" //back
+
+// - titlescreen -
+ORG $D89BCC
+#incext png2dmp "titlescreen/D89BCC.png" //game title
+ORG $4FD5D0
+WORD 0 0 0 0 0 0 0 0
+#incext png2dmp "titlescreen/4FD5F0.png" //press start
+ORG $4FDA90
+#incext png2dmp "titlescreen/4FDA90.png" //continue collection
+ORG $4FDFD0
+WORD 0 0 0 0 0 0 0 0
+#incext png2dmp "titlescreen/4FDFF0.png" //new game
+ORG $4FE250
+WORD 0 0 0 0 0 0 0 0
+#incext png2dmp "titlescreen/4FE270.png" //choose difficulty level
+ORG $4FE7F0
+WORD 0 0 0 0 0 0 0 0
+#incext png2dmp "titlescreen/4FE810.png" //easy hard
+WORD 0 0 0 0 0 0 0 0
+
+// - pause menus -
+ORG $DA4AD4
+#incext png2dmp "pause/DA4AD4.png" //items
+ORG $DA4314
+#incext png2dmp "pause/DA4314.png" //cineland
+ORG $DA4054
+#incext png2dmp "pause/DA4054.png" //start resume
+ORG $CED080
+#incext png2dmp "pause/CED080.png" //trajes familia
+
+// - start animation -
+ORG $502D90
+#incext png2dmp "start/502D90.png" 
+ORG $DA3AF4
+#incext png2dmp "start/DA3AF4.png" 
+ORG $DA36F4
+#incext png2dmp "start/DA36F4.png" 
+
+// - game over screen -
+ORG $C6AFF4
+#incext png2dmp "gameover/C6AFF4.png" //game over
+ORG $D78AD8
+#incext png2dmp "gameover/D78AD8.png" //options, hovering over
+ORG $D78024
+#incext png2dmp "gameover/D78024.png" //options, not hovering over
+
+// - help desks -
+ORG $5087F0
+#incbin "helpdesks/5087F0.img.bin" //accept back
+ORG $50E6F0
+#incbin "helpdesks/50E6F0.img.bin" //accept back
+ORG $D7F49C
+#incext png2dmp "helpdesks/D7F49C.png" //save desk
+ORG $D84704
+#incext png2dmp "helpdesks/D84704.png" //collection desk
+
+// - minigames -
+ORG $62CEF0
+#incext png2dmp "minigames/62CEF0.png" //results
+ORG $D8D1A0
+#incext png2dmp "minigames/D8D1A0.png" //results score
+ORG $514090
+WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0
+WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0
+WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0
+WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0
+#incext png2dmp "minigames/5150D0.png" //complete 1
+WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0
+WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0
+ORG $514090
+WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0
+WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0
+WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0
+WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0
+#incext png2dmp "minigames/514310.png" //complete 2
+WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0
+WORD 0 0 0 0 0 0 0 0; WORD 0 0 0 0 0 0 0 0
+ORG $D771F0
+#incext png2dmp "minigames/D771F0.png" //giant robot
+ORG $836E84
+#incext png2dmp "minigames/836E84.png" //wild west
+
+// - save menu -
+ORG $624F50
+#incext png2dmp "save/624F50.png" //save
+ORG $628330
+#incext png2dmp "save/628330.png" //yes no
+ORG $E0264 //maps for easy and hard
+SHORT 00 01 02 03 04 05 06 07 08 08
+SHORT 09 10 11 12 13 14 15 16 17 17
+SHORT 18 19 20 21 22 23 24 25 26 26
+ORG $8F2A2; SHORT 0x2209 //each one is only 9 tiles now
+ORG $D7A32C
+#incext png2dmp "save/D7A32C.png" //easy hard
+ORG $E04AC
+#incext png2dmp "save/E04AC.png" //easy hard
+ORG $69B040
+WORD savetable-currentoffset
+POP
+
+ALIGN 4
+savetable:
+#incbin "save/savetable.bin"
+SHORT 0x223A+00+(00*2) 0x223A+01+(00*2) 0x223A+29+(00*2) 0x223A+30+(00*2)
+SHORT 0x223A+00+(01*2) 0x223A+01+(01*2) 0x223A+29+(01*2) 0x223A+30+(01*2)
+SHORT 0x223A+00+(02*2) 0x223A+01+(02*2) 0x223A+29+(02*2) 0x223A+30+(02*2)
+SHORT 0x223A+00+(03*2) 0x223A+01+(03*2) 0x223A+29+(03*2) 0x223A+30+(03*2)
+SHORT 0x223A+00+(04*2) 0x223A+01+(04*2) 0x223A+29+(04*2) 0x223A+30+(04*2)
+SHORT 0x223A+00+(05*2) 0x223A+01+(05*2) 0x223A+29+(05*2) 0x223A+30+(05*2)
+SHORT 0x223A+00+(06*2) 0x223A+01+(06*2) 0x223A+29+(06*2) 0x223A+30+(06*2)
+SHORT 0x223A+00+(07*2) 0x223A+01+(07*2) 0x223A+29+(07*2) 0x223A+30+(07*2)
+SHORT 0x223A+00+(08*2) 0x223A+01+(08*2) 0x223A+29+(08*2) 0x223A+30+(08*2)
+SHORT 0x223A+00+(09*2) 0x223A+01+(09*2) 0x223A+29+(09*2) 0x223A+30+(09*2)
+SHORT 0x223A+00+(10*2) 0x223A+01+(10*2) 0x223A+29+(10*2) 0x223A+30+(10*2)
+SHORT 0x223A+00+(11*2) 0x223A+01+(11*2) 0x223A+29+(11*2) 0x223A+30+(11*2)
+SHORT 0x223A+00+(12*2) 0x223A+01+(12*2) 0x223A+29+(12*2) 0x223A+30+(12*2)
+SHORT 0x223A+00+(13*2) 0x223A+01+(13*2) 0x223A+29+(13*2) 0x223A+30+(13*2)
+SHORT 0x223A+00+(14*2) 0x223A+01+(14*2) 0x223A+29+(14*2) 0x223A+30+(14*2)
+
+PUSH
+ORG $750524+(0x12C*0x06)+0xF0; SHORT 0x2B0 0x2B1 0x2B2 0x2B3 0x2B4 0x2B5 0x2B6 0x2B7 0x2B8 0x2B9 0x2BA 0x2BB 0x2BC 0x2BD 0x97
+ORG $750524+(0x12C*0x07)+0xF0; SHORT 0x2B0 0x2B1 0x2B2 0x2B3 0x2B4 0x2B5 0x2B6 0x2B7 0x2B8 0x2B9 0x2BA 0x2BB 0x2BC 0x2BD 0x97
+ORG $750524+(0x12C*0x08)+0xF0; SHORT 0x2B0 0x2B1 0x2B2 0x2B3 0x2B4 0x2B5 0x2B6 0x2B7 0x2B8 0x2B9 0x2BA 0x2BB 0x2BC 0x2BD 0x97
+ORG $750524+(0x12C*0x09)+0xF0; SHORT 0x2B0 0x2B1 0x2B2 0x2B3 0x2B4 0x2B5 0x2B6 0x2B7 0x2B8 0x2B9 0x2BA 0x2BB 0x2BC 0x2BD 0x97
+ORG $750524+(0x12C*0x0A)+0xF0; SHORT 0x2B0 0x2B1 0x2B2 0x2B3 0x2B4 0x2B5 0x2B6 0x2B7 0x2B8 0x2B9 0x2BA 0x2BB 0x2BC 0x2BD 0x97
+ORG $750524+(0x12C*0x0B)+0xF0; SHORT 0x2B0 0x2B1 0x2B2 0x2B3 0x2B4 0x2B5 0x2B6 0x2B7 0x2B8 0x2B9 0x2BA 0x2BB 0x2BC 0x2BD 0x97
+ORG $750524+(0x12C*0x0C)+0xF0; SHORT 0x2B0 0x2B1 0x2B2 0x2B3 0x2B4 0x2B5 0x2B6 0x2B7 0x2B8 0x2B9 0x2BA 0x2BB 0x2BC 0x2BD 0x97
+ORG $750524+(0x12C*0x0D)+0xF0; SHORT 0x2B0 0x2B1 0x2B2 0x2B3 0x2B4 0x2B5 0x2B6 0x2B7 0x2B8 0x2B9 0x2BA 0x2BB 0x2BC 0x2BD 0x97
+ORG $750524+(0x12C*0x0E)+0xF0; SHORT 0x2B0 0x2B1 0x2B2 0x2B3 0x2B4 0x2B5 0x2B6 0x2B7 0x2B8 0x2B9 0x2BA 0x2BB 0x2BC 0x2BD 0x97
+ORG $750524+(0x12C*0x0F)+0xF0; SHORT 0x2B0 0x2B1 0x2B2 0x2B3 0x2B4 0x2B5 0x2B6 0x2B7 0x2B8 0x2B9 0x2BA 0x2BB 0x2BC 0x2BD 0x97
+ORG $750524+(0x12C*0x10)+0xF0; SHORT 0x2B0 0x2B1 0x2B2 0x2B3 0x2B4 0x2B5 0x2B6 0x2B7 0x2B8 0x2B9 0x2BA 0x2BB 0x2BC 0x2BD 0x97
+ORG $750524+(0x12C*0x11)+0xF0; SHORT 0x2B0 0x2B1 0x2B2 0x2B3 0x2B4 0x2B5 0x2B6 0x2B7 0x2B8 0x2B9 0x2BA 0x2BB 0x2BC 0x2BD 0x97
+ORG $750524+(0x12C*0x12)+0xF0; SHORT 0x2B0 0x2B1 0x2B2 0x2B3 0x2B4 0x2B5 0x2B6 0x2B7 0x2B8 0x2B9 0x2BA 0x2BB 0x2BC 0x2BD 0x97
+ORG $750524+(0x12C*0x13)+0xF0; SHORT 0x2B0 0x2B1 0x2B2 0x2B3 0x2B4 0x2B5 0x2B6 0x2B7 0x2B8 0x2B9 0x2BA 0x2BB 0x2BC 0x2BD 0x97
+ORG $750524+(0x12C*0x14)+0xF0; SHORT 0x2B0 0x2B1 0x2B2 0x2B3 0x2B4 0x2B5 0x2B6 0x2B7 0x2B8 0x2B9 0x2BA 0x2BB 0x2BC 0x2BD 0x97
+ORG $750524+(0x12C*0x15)+0xF0; SHORT 0x2B0 0x2B1 0x2B2 0x2B3 0x2B4 0x2B5 0x2B6 0x2B7 0x2B8 0x2B9 0x2BA 0x2BB 0x2BC 0x2BD 0x97
+ORG $750524+(0x12C*0x16)+0xF0; SHORT 0x2B0 0x2B1 0x2B2 0x2B3 0x2B4 0x2B5 0x2B6 0x2B7 0x2B8 0x2B9 0x2BA 0x2BB 0x2BC 0x2BD 0x97
+ORG $750524+(0x12C*0x17)+0xF0; SHORT 0x2B0 0x2B1 0x2B2 0x2B3 0x2B4 0x2B5 0x2B6 0x2B7 0x2B8 0x2B9 0x2BA 0x2BB 0x2BC 0x2BD 0x97
+ORG $750524+(0x12C*0x18)+0xF0; SHORT 0x2B0 0x2B1 0x2B2 0x2B3 0x2B4 0x2B5 0x2B6 0x2B7 0x2B8 0x2B9 0x2BA 0x2BB 0x2BC 0x2BD 0x97
+ORG $750524+(0x12C*0x1A)+0xF0; SHORT 0x2B0 0x2B1 0x2B2 0x2B3 0x2B4 0x2B5 0x2B6 0x2B7 0x2B8 0x2B9 0x2BA 0x2BB 0x2BC 0x2BD 0x97
+ORG $750524+(0x12C*0x1B)+0xF0; SHORT 0x2B0 0x2B1 0x2B2 0x2B3 0x2B4 0x2B5 0x2B6 0x2B7 0x2B8 0x2B9 0x2BA 0x2BB 0x2BC 0x2BD 0x97
+ORG $750524+(0x12C*0x1C)+0xF0; SHORT 0x2B0 0x2B1 0x2B2 0x2B3 0x2B4 0x2B5 0x2B6 0x2B7 0x2B8 0x2B9 0x2BA 0x2BB 0x2BC 0x2BD 0x97
+ORG $750524+(0x12C*0x1D)+0xF0; SHORT 0x2B0 0x2B1 0x2B2 0x2B3 0x2B4 0x2B5 0x2B6 0x2B7 0x2B8 0x2B9 0x2BA 0x2BB 0x2BC 0x2BD 0x97
+ORG $750524+(0x12C*0x28)+0xF0; SHORT 0x2B0 0x2B1 0x2B2 0x2B3 0x2B4 0x2B5 0x2B6 0x2B7 0x2B8 0x2B9 0x2BA 0x2BB 0x2BC 0x2BD 0x97
+POP
+
+PUSH; ORG $5156; SHORT 0xB408; jumpToHack(newSave); POP
+ALIGN 4
+newSave:
+#incbin "save/newSave.dmp"
+POIN saveTable
+
+ALIGN 4
+saveTable:
+WORD 0		//0x00
+WORD 0		//0x01
+WORD 0		//0x02
+WORD 0		//0x03
+WORD 0		//0x04
+WORD 0		//0x05
+POIN save06	//0x06 ¿Quieres guardar esta partida?
+POIN save07	//0x07 ¿Quieres guardar en partida 1?
+POIN save08	//0x08 Guardado en partida 1
+POIN save09	//0x09 ¿Quieres guardar en partida 2?
+POIN save0A	//0x0A Guardado en partida 2
+POIN save0B	//0x0B ¿Quieres reemplazar la partida 1?
+POIN save0C	//0x0C La partida 1 ha sido reemplazada
+POIN save0D	//0x0D ¿Quieres reemplazar la partida 2?
+POIN save0E	//0x0E La partida 2 ha sido reemplazada
+POIN save0F	//0x0F ¿Que partida quieres cargar?
+POIN save10	//0x10 ¿Quieres cargar la partida 1?
+POIN save11	//0x11 Cargada la partida 1
+POIN save12	//0x12 ¿Quieres cargar la partida 2?
+POIN save13	//0x13 Cargada la partida 2
+POIN save14	//0x14 ¿Que partida quieres eliminar?
+POIN save15	//0x15 ¿Quieres eliminar la partida 1?
+POIN save16	//0x16 La partida 1 ha sido eliminada
+POIN save17	//0x17 ¿Quieres eliminar la partida 2?
+POIN save18	//0x18 La partida 2 ha sido eliminada
+WORD 0		//0x19
+POIN save1A	//0x1A Error al grabar
+POIN save1B	//0x1B Error al reemplazar
+POIN save1C	//0x1C Error al cargar
+POIN save1D	//0x1D Error al eliminar
+WORD 0		//0x1E
+WORD 0		//0x1F
+WORD 0		//0x20
+WORD 0		//0x21
+WORD 0		//0x22
+WORD 0		//0x23
+WORD 0		//0x24
+WORD 0		//0x25
+WORD 0		//0x26
+WORD 0		//0x27
+POIN save28	//0x28 Guardando partida
+
+ALIGN 4
+save06:
+#incext png2dmp "save/save06.png"
+ALIGN 4
+save07:
+#incext png2dmp "save/save07.png"
+ALIGN 4
+save08:
+#incext png2dmp "save/save08.png"
+ALIGN 4
+save09:
+#incext png2dmp "save/save09.png"
+ALIGN 4
+save0A:
+#incext png2dmp "save/save0A.png"
+ALIGN 4
+save0B:
+#incext png2dmp "save/save0B.png"
+ALIGN 4
+save0C:
+#incext png2dmp "save/save0C.png"
+ALIGN 4
+save0D:
+#incext png2dmp "save/save0D.png"
+ALIGN 4
+save0E:
+#incext png2dmp "save/save0E.png"
+ALIGN 4
+save0F:
+#incext png2dmp "save/save0F.png"
+ALIGN 4
+save10:
+#incext png2dmp "save/save10.png"
+ALIGN 4
+save11:
+#incext png2dmp "save/save11.png"
+ALIGN 4
+save12:
+#incext png2dmp "save/save12.png"
+ALIGN 4
+save13:
+#incext png2dmp "save/save13.png"
+ALIGN 4
+save14:
+#incext png2dmp "save/save14.png"
+ALIGN 4
+save15:
+#incext png2dmp "save/save15.png"
+ALIGN 4
+save16:
+#incext png2dmp "save/save16.png"
+ALIGN 4
+save17:
+#incext png2dmp "save/save17.png"
+ALIGN 4
+save18:
+#incext png2dmp "save/save18.png"
+ALIGN 4
+save1A:
+#incext png2dmp "save/save1A.png"
+ALIGN 4
+save1B:
+#incext png2dmp "save/save1B.png"
+ALIGN 4
+save1C:
+#incext png2dmp "save/save1C.png"
+ALIGN 4
+save1D:
+#incext png2dmp "save/save1D.png"
+ALIGN 4
+save28:
+#incext png2dmp "save/save28.png"

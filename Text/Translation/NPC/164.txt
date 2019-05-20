@@ -1,0 +1,3 @@
+Con [uparrowchar] y B, alargas[0x8012]
+la lengua en vertical[0x8015]
+hacia arriba, sabías?[0x8016]

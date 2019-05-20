@@ -1,0 +1,8 @@
+Just like Action Mask, I[0x8016]
+can shoot beams with B![0x8016]
+I can also do a spin[0x8016]
+attack while jumping![0x8016]
+Just press B and [downarrowchar]![0x8016]
+[0x8016]
+The Action Beam and[0x8016]
+the Action Whirlwind![0x8016]

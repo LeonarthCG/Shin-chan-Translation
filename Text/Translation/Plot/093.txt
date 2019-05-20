@@ -1,0 +1,4 @@
+...[0x8003]
+[0x8010]
+We are like two[0x8010]
+peas in a pod.[0x8010]

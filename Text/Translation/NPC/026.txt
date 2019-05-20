@@ -1,0 +1,4 @@
+Masao[0x8005]
+Level O3[0x8007]
+Normal [0x8007]
+Completed[0x8008]

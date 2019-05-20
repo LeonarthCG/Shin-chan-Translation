@@ -1,0 +1,2 @@
+The monkeys[0x8018]
+would get us![0x8018]

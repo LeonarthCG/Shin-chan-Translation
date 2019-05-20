@@ -1,0 +1,4 @@
+Hey, monkeys! Stop with[0x8015]
+the mean stuff! Go back[0x8015]
+to the jungle and[0x8015]
+live there in peace![0x8015]

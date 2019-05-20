@@ -1,0 +1,2 @@
+Action Mask[0x800b]
+Here, the Action Stone. [0x8015]

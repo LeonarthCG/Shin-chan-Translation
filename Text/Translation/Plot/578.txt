@@ -1,0 +1,4 @@
+Kasukabe?[0x800a]
+[0x8011]
+This is Kasuga, in[0x8010]
+the land of Musashi.[0x8011]

@@ -1,0 +1,2 @@
+Nice.[0x8005]
+Now you say mine![0x8017]

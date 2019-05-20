@@ -1,0 +1,4 @@
+You can do the Ultra[0x8015]
+Whirlwind by pressing[0x8015]
+[downarrowchar] and B after doing[0x8015]
+a double jump![0x8015]

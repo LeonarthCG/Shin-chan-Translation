@@ -1,0 +1,4 @@
+Lulu, commander[0x8010]
+of the Royal Guard,[0x8013]
+is searching for[0x8011]
+Prince Sunnokeshi.[0x800b]

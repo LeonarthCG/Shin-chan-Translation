@@ -1,0 +1,6 @@
+Your score is based on[0x8017]
+how fast you finish![0x8017]
+You will also get points[0x8017]
+for any remaining HP![0x8017]
+Also, collect cookies[0x800e]
+to get lots of points![0x800e]

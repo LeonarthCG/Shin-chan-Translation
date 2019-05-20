@@ -1,0 +1,2 @@
+Hooray![0x8008]
+Yay! Yay![0x800d]

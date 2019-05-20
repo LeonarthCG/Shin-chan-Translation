@@ -1,0 +1,4 @@
+Nene[0x8004]
+Level O3[0x8007]
+Action Mask[0x800b]
+Not completed[0x800b]

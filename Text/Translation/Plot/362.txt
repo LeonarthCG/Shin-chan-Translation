@@ -1,0 +1,2 @@
+That would change[0x800c]
+the whole world. [0x8018]

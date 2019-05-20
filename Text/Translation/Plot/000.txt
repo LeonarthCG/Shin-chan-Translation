@@ -1,0 +1,4 @@
+Having trouble jumping[0x8018]
+high enough?[0x8018]
+Don't sweat it. [0x8017]
+Hop on, let's go!    [0x8017]

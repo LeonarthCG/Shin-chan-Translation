@@ -1,0 +1,8 @@
+After jumping I can press [0x8016]
+A and the D-pad direction[0x8015]
+the wall is towards to [0x8017]
+bounce off of it.[0x8017]
+I can climb up walls by[0x8018]
+wall jumping like that![0x8014]
+Heh!, I bet the grownups[0x8018]
+would never figure it out[0x8018]

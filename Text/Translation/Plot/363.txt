@@ -1,0 +1,2 @@
+He also said their base[0x800c]
+is in Atami, right?[0x800c]

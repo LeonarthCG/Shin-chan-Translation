@@ -1,0 +1,3 @@
+The [quote]cotton candy[quote] can be[0x8010]
+found in this level...[0x8010]
+Do you think it's edible?[0x8010]

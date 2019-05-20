@@ -1,0 +1,4 @@
+...[0x8003]
+[0x8000]
+...Ah... [0x8009]
+Samurai of the Blue Sky! [0x8019]

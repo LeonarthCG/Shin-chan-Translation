@@ -1,0 +1,4 @@
+Retreaaat! [0x800d]
+[0x8000]
+We are returning[0x8012]
+to our home![0x8012]

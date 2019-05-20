@@ -1,0 +1,2 @@
+Use the walljump when[0x8016]
+two walls are close.[0x8016]

@@ -1,0 +1,4 @@
+Are you sure?[0x8013]
+[0x8000]
+What about the surprise?[0x800f]
+Don't you want to see it?[0x800f]

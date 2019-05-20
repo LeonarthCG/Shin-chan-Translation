@@ -1,0 +1,7 @@
+Yoshirín[0x8008]
+Are you collecting[0x8015]
+the blue cards, too?[0x8015]
+You can view your whole[0x8015]
+collection in the lobby.[0x8015]
+It would be great to have[0x8015]
+all those great scenes![0x8015]

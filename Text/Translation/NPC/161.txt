@@ -1,0 +1,4 @@
+The energy for the Action[0x8015]
+Beam can run out.[0x8015]
+Do not go around wasting[0x8015]
+it, you hear me?![0x8015]

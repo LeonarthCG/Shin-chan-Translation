@@ -1,0 +1,4 @@
+We did it![0x800d]
+[0x8000]
+That special[0x8000]
+surprise is ours![0x8015]

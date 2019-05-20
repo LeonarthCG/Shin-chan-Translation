@@ -1,0 +1,4 @@
+Kazama[0x8006]
+Level 1O[0x8007]
+Chicken[0x8005]
+Not completed[0x800b]

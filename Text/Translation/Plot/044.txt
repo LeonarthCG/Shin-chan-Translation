@@ -1,0 +1,4 @@
+I'll do it![0x800c]
+[0x8000]
+I'll help Action Mask[0x8016]
+get back home![0x8009]

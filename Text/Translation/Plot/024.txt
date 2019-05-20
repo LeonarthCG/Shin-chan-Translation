@@ -1,0 +1,6 @@
+Ok, I just have to [0x8013]
+jump on the ropes...[0x8017]
+To get down, I use [downarrowchar] and[0x8018]
+A and... That's it?... [0x8010]
+Ugh... There's too many[0x8015]
+steps to memorize! [0x8015]

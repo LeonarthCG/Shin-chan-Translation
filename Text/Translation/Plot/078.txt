@@ -1,0 +1,3 @@
+My teammates are over at[0x8016]
+the next train station.[0x8015]
+You can rest easy now.[0x8018]

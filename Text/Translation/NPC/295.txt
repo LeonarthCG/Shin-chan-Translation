@@ -1,0 +1,4 @@
+Nene[0x8004]
+Level O3[0x8007]
+Monkey[0x8004]
+Not completed[0x800b]

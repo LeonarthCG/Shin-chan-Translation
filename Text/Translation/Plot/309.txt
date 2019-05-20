@@ -1,0 +1,2 @@
+I knew it! Action[0x8016]
+Mask is unbeatable![0x8016]

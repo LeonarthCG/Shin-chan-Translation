@@ -1,0 +1,6 @@
+Use your tongue as a hook[0x8018]
+on the froggy spots![0x8018]
+You can shoot it out[0x8018]
+with the B button![0x8018]
+You can also use the [uparrowchar][0x8018]
+and B to shoot upwards![0x8018]

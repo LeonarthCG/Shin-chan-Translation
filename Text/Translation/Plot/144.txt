@@ -1,0 +1,4 @@
+Upon arrival, they are[0x8017]
+attacked by ninjas![0x8017]
+Luckily a warrior comes[0x8017]
+to their rescue.[0x8017]

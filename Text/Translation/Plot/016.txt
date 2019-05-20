@@ -1,0 +1,8 @@
+Thank you, Shin-chan.[0x8013]
+Now, listen:[0x8010]
+If you speak with[0x8011]
+people, they'll help you! [0x8018]
+Press the [uparrowchar] button[0x8010]
+to interact with them.[0x8016]
+Here, have a blue card![0x8017]
+Try to get them all, ok?[0x8016]

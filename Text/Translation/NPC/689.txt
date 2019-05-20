@@ -1,0 +1,2 @@
+You can press Start to[0x8018]
+view your inventory...[0x8018]

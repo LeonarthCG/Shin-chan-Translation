@@ -1,0 +1,6 @@
+Reach the end with spare[0x800e]
+HP to get more points.[0x800e]
+Also, collect cookies[0x800e]
+to get lots of points![0x800e]
+Be careful in your[0x800e]
+way to the goal.[0x800e]

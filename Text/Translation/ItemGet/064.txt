@@ -1,0 +1,2 @@
+You got the 65th[0x8015]
+collectible card.[0x800a]

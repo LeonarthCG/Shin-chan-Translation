@@ -1,0 +1,2 @@
+Keep an eye on the gauge.[0x8016]
+If it runs out, you fall![0x8016]

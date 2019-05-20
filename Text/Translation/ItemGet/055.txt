@@ -1,0 +1,2 @@
+You got the 56th[0x8016]
+collectible card.[0x800a]

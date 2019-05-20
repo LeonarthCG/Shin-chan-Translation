@@ -1,0 +1,2 @@
+Yes...[0x8000]
+Let's go home.[0x8017]

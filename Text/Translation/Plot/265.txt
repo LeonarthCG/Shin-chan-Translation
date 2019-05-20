@@ -1,0 +1,2 @@
+Their strength is greater[0x8016]
+than that of the robot![0x8016]

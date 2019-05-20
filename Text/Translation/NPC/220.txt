@@ -1,0 +1,4 @@
+The Action Mask suit is[0x8018]
+the best combat suit![0x8018]
+Use the Ultra Kick by[0x8018]
+pressing B after a jump![0x8018]

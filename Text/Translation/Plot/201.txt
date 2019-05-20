@@ -1,0 +1,2 @@
+Do you realize what[0x8000]
+you just did?![0x8017]

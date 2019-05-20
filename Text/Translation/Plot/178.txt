@@ -1,0 +1,4 @@
+Alright![0x800a]
+Mom! Dad![0x800d]
+Mash the buttons with[0x8013]
+me and we'll beat him![0x8015]

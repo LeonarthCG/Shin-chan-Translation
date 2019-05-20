@@ -1,0 +1,4 @@
+Boo-chan[0x8008]
+Level O1[0x8007]
+Normal[0x8006]
+Not completed[0x800b]

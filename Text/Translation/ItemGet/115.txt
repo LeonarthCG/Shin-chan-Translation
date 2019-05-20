@@ -1,0 +1,2 @@
+You got the item [0x8010]
+[quote]figurine[quote]. [0x800c]

@@ -1,0 +1,2 @@
+What do you want[0x8008]
+this energy for?![0x8008]

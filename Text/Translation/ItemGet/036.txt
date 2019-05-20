@@ -1,0 +1,2 @@
+You got the 37th[0x8015]
+collectible card.[0x800a]

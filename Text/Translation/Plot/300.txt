@@ -1,0 +1,4 @@
+Let's leave the island[0x8010]
+as soon as possible![0x8010]
+Who knows what[0x8010]
+he is up to.[0x8010]

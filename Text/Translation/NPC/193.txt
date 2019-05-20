@@ -1,0 +1,4 @@
+Kazama[0x8006]
+Level O5[0x8007]
+Bee[0x8005]
+Completed[0x8008]

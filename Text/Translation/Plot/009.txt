@@ -1,0 +1,4 @@
+Thanks. Save everyone[0x8010]
+and leave the boat.[0x8018]
+I'll be waiting at the[0x8010]
+exit with the captain.[0x8017]

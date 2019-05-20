@@ -1,0 +1,2 @@
+Do you have many cards?[0x8019]
+I only found 3...[0x8019]

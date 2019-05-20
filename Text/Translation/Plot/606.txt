@@ -1,0 +1,8 @@
+Welcome to...[0x8010]
+[0x8014]
+The fantastic 5[0x8014]
+in the Wild West![0x8010]
+In this area you can't[0x8010]
+use Suits or Family.[0x8010]
+You have 3 tries[0x8010]
+before the game ends.[0x8010]

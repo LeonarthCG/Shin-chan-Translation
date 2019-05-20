@@ -1,0 +1,2 @@
+You got the 9th[0x8016]
+collectible card.[0x8009]

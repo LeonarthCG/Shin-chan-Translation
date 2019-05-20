@@ -1,0 +1,2 @@
+Strange attire.[0x8011]
+Where do you hail from?[0x8011]

@@ -1,0 +1,2 @@
+I'm Shinnosuke Nohara.[0x8016]
+What's your name?[0x8006]

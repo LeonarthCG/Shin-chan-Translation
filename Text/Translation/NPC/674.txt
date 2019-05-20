@@ -1,0 +1,4 @@
+You might have some items[0x8011]
+that people really want.[0x8011]
+Try trading them, it[0x8011]
+might be a good idea...[0x8011]

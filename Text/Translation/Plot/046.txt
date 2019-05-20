@@ -1,0 +1,2 @@
+The city is full of[0x8017]
+inavaders. Be careful![0x8018]

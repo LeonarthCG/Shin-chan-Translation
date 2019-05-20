@@ -1,0 +1,2 @@
+You want to save even[0x8018]
+the Pig's Hoof staff?[0x8018]

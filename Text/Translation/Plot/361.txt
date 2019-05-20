@@ -1,0 +1,2 @@
+He said it was something[0x800c]
+you can't touch...[0x800c]

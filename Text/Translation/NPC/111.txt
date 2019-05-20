@@ -1,0 +1,2 @@
+Against their spears, use[0x8018]
+Action Beams from afar![0x8018]

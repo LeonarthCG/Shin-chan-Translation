@@ -1,0 +1,3 @@
+Musculman:[0x800a]
+It must have been[0x8018]
+the blast wave.[0x8018]

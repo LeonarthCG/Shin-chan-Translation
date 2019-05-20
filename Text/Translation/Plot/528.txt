@@ -1,0 +1,2 @@
+Are you thinking[0x8014]
+of running away?![0x8014]

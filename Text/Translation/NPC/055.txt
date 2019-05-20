@@ -1,0 +1,4 @@
+Masao[0x8005]
+Level O5[0x8007]
+Frog[0x8004]
+Not completed[0x800b]

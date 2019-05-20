@@ -1,0 +1,3 @@
+If you are in trouble[0x8017]
+press R to call on us.[0x8015]
+We will lend you a hand![0x8018]

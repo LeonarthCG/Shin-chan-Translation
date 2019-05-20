@@ -1,0 +1,4 @@
+That's us.[0x8014]
+[0x8000]
+We came from far away[0x8014]
+to meet with you.[0x8011]

@@ -1,0 +1,6 @@
+We'll get along fine.[0x8014]
+We can be friends.[0x800f]
+I'm Shin-chan.[0x8014]
+Do you want me[0x800c]
+to call you Sun-chan[0x8012]
+so it matches my name?[0x800b]

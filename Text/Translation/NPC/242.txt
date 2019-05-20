@@ -1,0 +1,4 @@
+Kazama [0x8007]
+Level 1O[0x8007]
+Normal[0x8006]
+Not completed[0x800b]

@@ -1,0 +1,4 @@
+If you don't beat levels[0x8017]
+1 through 4, you can't[0x8017]
+enter the levels on the[0x8017]
+2nd floor... Remember it.[0x8017]

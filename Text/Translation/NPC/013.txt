@@ -1,0 +1,4 @@
+Be careful with[0x8012]
+the moving walls![0x8012]
+Try to pose in front of[0x8012]
+the holes to dodge them![0x8012]

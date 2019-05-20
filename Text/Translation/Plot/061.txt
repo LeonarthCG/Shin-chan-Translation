@@ -1,0 +1,5 @@
+Press the L button to[0x800f]
+open the suit menu![0x800f]
+Then, choose the suit[0x800f]
+and I will transform into[0x800f]
+Action Mask right there![0x800f]

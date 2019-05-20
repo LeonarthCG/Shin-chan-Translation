@@ -1,0 +1,4 @@
+I know your weak spot![0x8000]
+I can beat you![0x8000]
+Wait and see...![0x8000]
+Coochy, coochy, coo...[0x8000]

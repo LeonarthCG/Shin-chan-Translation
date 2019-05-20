@@ -1,0 +1,8 @@
+Thanks, kid. [0x8010]
+I owe you my life![0x8018]
+There's more people [0x8018]
+stuck in the lockers.[0x8010]
+I can't get them open. [0x8016]
+Could you try? [0x8013]
+Rescue everyone and[0x8010]
+come to the exit.[0x8012]

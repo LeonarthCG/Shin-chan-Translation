@@ -1,0 +1,7 @@
+The base is about to[0x8017]
+be blown to bits![0x8000]
+Quick, we have to flee[0x8015]
+the base before that[0x8015]
+bomb goes off on us![0x8015]
+[0x8000]
+Hurry up![0x8000]

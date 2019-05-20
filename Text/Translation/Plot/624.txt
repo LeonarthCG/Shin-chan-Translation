@@ -1,0 +1,8 @@
+Do you remember how[0x8013]
+to ride the bike?[0x8013]
+Press [leftarrowchar] and [rightarrowchar] to go[0x8013]
+slower or faster.[0x8013]
+Use A to jump, it also[0x8013]
+doubles as an attack![0x8013]
+If you smash into an[0x8013]
+obstacle, it's game over![0x8013]

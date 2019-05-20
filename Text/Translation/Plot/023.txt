@@ -1,0 +1,2 @@
+Oh! The monkey[0x8017]
+from earlier. [0x8017]

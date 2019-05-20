@@ -1,0 +1,4 @@
+Silence! Do not speak[0x8013]
+or I won't take[0x8013]
+responsibility of[0x8013]
+what happens next.[0x8013]

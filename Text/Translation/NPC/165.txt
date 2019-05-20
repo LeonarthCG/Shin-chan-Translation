@@ -1,0 +1,6 @@
+When hanging on a froggy[0x8018]
+spot, be careful:[0x8018]
+Depending on when you let[0x8018]
+go your jump distance and[0x8018]
+direction will change![0x8018]
+Try it out![0x8018]

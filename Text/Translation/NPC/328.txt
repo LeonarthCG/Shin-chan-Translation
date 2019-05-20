@@ -1,0 +1,4 @@
+The blast doors are[0x8018]
+closed! What do we do?[0x8018]
+You will need a lot[0x8018]
+of power to break it.[0x8018]

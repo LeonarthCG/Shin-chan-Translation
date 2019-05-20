@@ -1,0 +1,10 @@
+emptysmall.png is an empty version of the graphics used
+to display the name of a level before entering it
+the font used in these is the font in font.png
+
+emptybig is an empty version of the graphics used to
+display the name of a level after entering it
+the font used is comic sans (white)
+	size 21
+	metric kerning
+	-38 tracking

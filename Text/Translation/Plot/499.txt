@@ -1,0 +1,4 @@
+The last level is...[0x8013]
+Struggling in vain![0x8013]
+What are you waiting for?[0x8013]
+Ha, ha, ha...[0x8013]

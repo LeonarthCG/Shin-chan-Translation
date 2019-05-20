@@ -1,0 +1,6 @@
+Welcome to...[0x800d]
+Full steam bike chase![0x8010]
+In this area you can't[0x8010]
+use Suits or Family.[0x8010]
+You have 3 tries[0x8010]
+before the game ends.[0x8010]

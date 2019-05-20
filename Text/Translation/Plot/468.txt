@@ -1,0 +1,2 @@
+Action Mask's about to be[0x8011]
+on... I want to go home.[0x8011]

@@ -1,0 +1,2 @@
+Uh? Huh...[0x800c]
+What just happened? [0x8014]

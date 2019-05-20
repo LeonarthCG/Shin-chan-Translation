@@ -1,0 +1,4 @@
+Thanks, boy. [0x8010]
+You saved my life.[0x8017]
+As a reward, have these[0x8016]
+cookies from the locker![0x8015]

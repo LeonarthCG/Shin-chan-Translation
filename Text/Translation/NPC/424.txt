@@ -1,0 +1,4 @@
+That just above us[0x8011]
+is a froggy spot.[0x8011]
+You can hook on it[0x8011]
+with your tongue...[0x8011]

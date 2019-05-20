@@ -1,0 +1,4 @@
+I need to climb up there[0x8012]
+to stop the witches![0x8012]
+I have to get there[0x8013]
+without getting caught![0x8012]

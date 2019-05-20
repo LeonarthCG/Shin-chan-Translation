@@ -1,0 +1,4 @@
+There's a shiny spot.[0x8014]
+Maybe a buried item?[0x8014]
+A dog might be able to[0x8014]
+unearth the treasure![0x8014]

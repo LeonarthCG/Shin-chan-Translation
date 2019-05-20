@@ -1,0 +1,4 @@
+Mmm... [0x8007]
+[0x8000]
+Actually, you[0x8016]
+are right!![0x8018]

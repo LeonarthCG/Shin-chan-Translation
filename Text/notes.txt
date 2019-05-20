@@ -1,0 +1,18 @@
+Max line width is 26 character for most of the text
+The width limit for the text in the Menu folder is 25
+
+Every line ends with a terminator
+The terminator is any short with the highest bit set
+In vanilla, the terminators indicate the size of the line
+however, all of them do the exact same thing, there is
+no difference. Use whatever you want
+
+The file NPC/663.txt contains some dev text in vanilla
+This text actually appears in the game, it's used by
+Yoshirin and Micchi when they trade you the
+Moe-p figurine for the Moe-p sticker
+Since there's no trace of the original dialogue
+that I could find, I just had to make it up
+
+There are some files that only contain "j[0xea00]"
+These files are ignored by the parser script

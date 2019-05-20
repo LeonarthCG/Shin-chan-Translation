@@ -1,0 +1,2 @@
+The Action Beam...[0x8014]
+It can break stuff.[0x8014]

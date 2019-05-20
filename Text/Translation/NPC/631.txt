@@ -1,0 +1,3 @@
+Kazama Cinemaland[0x800e]
+Normal[0x8006]
+Cinemaland 4[0x8009]

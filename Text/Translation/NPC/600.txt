@@ -1,0 +1,2 @@
+I am sorry, only staff[0x8018]
+can access this area.[0x8018]

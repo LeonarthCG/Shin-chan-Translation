@@ -1,0 +1,8 @@
+Go to the loudspeaker[0x8018]
+room and tell the staff[0x8018]
+of the base to drop their[0x8018]
+weapons and board the[0x8018]
+airship right now![0x8018]
+[0x8018]
+We have about 3[0x8018]
+minutes to do this![0x8018]

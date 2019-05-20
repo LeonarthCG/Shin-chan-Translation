@@ -1,0 +1,245 @@
+PUSH //graphics table
+ORG $DAB088
+WORD smallnameslevel01-currentoffset; WORD ((240*24)/2); ORG currentoffset+0x0C
+WORD smallnameslevel02-currentoffset; WORD ((240*24)/2); ORG currentoffset+0x0C
+WORD smallnameslevel03-currentoffset; WORD ((240*24)/2); ORG currentoffset+0x0C
+WORD smallnameslevel04-currentoffset; WORD ((240*24)/2); ORG currentoffset+0x0C
+WORD smallnameslevel05-currentoffset; WORD ((240*24)/2); ORG currentoffset+0x0C
+WORD smallnameslevel06-currentoffset; WORD ((240*24)/2); ORG currentoffset+0x0C
+WORD smallnameslevel07-currentoffset; WORD ((240*24)/2); ORG currentoffset+0x0C
+WORD smallnameslevel08-currentoffset; WORD ((240*24)/2); ORG currentoffset+0x0C
+WORD smallnameslevel09-currentoffset; WORD ((240*24)/2); ORG currentoffset+0x0C
+WORD smallnameslevel10-currentoffset; WORD ((240*24)/2); ORG currentoffset+0x0C
+WORD smallnameslevel11-currentoffset; WORD ((240*24)/2); ORG currentoffset+0x0C
+WORD smallnamesbonus01-currentoffset; WORD ((240*24)/2); ORG currentoffset+0x0C
+WORD smallnamesbonus02-currentoffset; WORD ((240*24)/2); ORG currentoffset+0x0C
+WORD smallnamesbonus03-currentoffset; WORD ((240*24)/2); ORG currentoffset+0x0C
+WORD smallnamesbonus04-currentoffset; WORD ((240*24)/2); ORG currentoffset+0x0C
+WORD smallnamesbonus05-currentoffset; WORD ((240*24)/2); ORG currentoffset+0x0C
+WORD smallnamesbonus06-currentoffset; WORD ((240*24)/2); ORG currentoffset+0x0C
+WORD smallnamesbonus07-currentoffset; WORD ((240*24)/2); ORG currentoffset+0x0C
+WORD bignameslevel01-currentoffset; WORD (((240*112)-5)/2); ORG currentoffset+0x0C
+WORD bignameslevel02-currentoffset; WORD (((240*112)-5)/2); ORG currentoffset+0x0C
+WORD bignameslevel03-currentoffset; WORD (((240*112)-5)/2); ORG currentoffset+0x0C
+WORD bignameslevel04-currentoffset; WORD (((240*112)-5)/2); ORG currentoffset+0x0C
+WORD bignameslevel05-currentoffset; WORD (((240*112)-5)/2); ORG currentoffset+0x0C
+WORD bignameslevel06-currentoffset; WORD (((240*112)-5)/2); ORG currentoffset+0x0C
+WORD bignameslevel07-currentoffset; WORD (((240*112)-5)/2); ORG currentoffset+0x0C
+WORD bignameslevel08-currentoffset; WORD (((240*112)-5)/2); ORG currentoffset+0x0C
+WORD bignameslevel09-currentoffset; WORD (((240*112)-5)/2); ORG currentoffset+0x0C
+WORD bignameslevel10-currentoffset; WORD (((240*112)-5)/2); ORG currentoffset+0x0C
+WORD bignameslevel11-currentoffset; WORD (((240*112)-5)/2); ORG currentoffset+0x0C
+WORD bignamesbonus01-currentoffset; WORD (((240*112)-5)/2); ORG currentoffset+0x0C
+WORD bignamesbonus02-currentoffset; WORD (((240*112)-5)/2); ORG currentoffset+0x0C
+WORD bignamesbonus03-currentoffset; WORD (((240*112)-5)/2); ORG currentoffset+0x0C
+WORD bignamesbonus04-currentoffset; WORD (((240*112)-5)/2); ORG currentoffset+0x0C
+WORD bignamesbonus05-currentoffset; WORD (((240*112)-5)/2); ORG currentoffset+0x0C
+WORD bignamesbonus06-currentoffset; WORD (((240*112)-5)/2); ORG currentoffset+0x0C
+WORD bignamesbonus07-currentoffset; WORD (((240*112)-5)/2); ORG currentoffset+0x0C
+WORD smallnamesminigames-currentoffset; WORD ((240*24)/2); ORG currentoffset+0x0C
+WORD smallnameslevel12-currentoffset; WORD ((240*24)/2); ORG currentoffset+0x0C
+POP
+
+PUSH //map table
+ORG $DC7540
+WORD smallnamesmap-currentoffset
+WORD smallnamesmap-currentoffset
+WORD smallnamesmap-currentoffset
+WORD smallnamesmap-currentoffset
+WORD smallnamesmap-currentoffset
+WORD smallnamesmap-currentoffset
+WORD smallnamesmap-currentoffset
+WORD smallnamesmap-currentoffset
+WORD smallnamesmap-currentoffset
+WORD smallnamesmap-currentoffset
+WORD smallnamesmap-currentoffset
+WORD smallnamesmap-currentoffset
+WORD smallnamesmap-currentoffset
+WORD smallnamesmap-currentoffset
+WORD smallnamesmap-currentoffset
+WORD smallnamesmap-currentoffset
+WORD smallnamesmap-currentoffset
+WORD smallnamesmap-currentoffset
+WORD bignamesmap-currentoffset
+WORD bignamesmap-currentoffset
+WORD bignamesmap-currentoffset
+WORD bignamesmap-currentoffset
+WORD bignamesmap-currentoffset
+WORD bignamesmap-currentoffset
+WORD bignamesmap-currentoffset
+WORD bignamesmap-currentoffset
+WORD bignamesmap-currentoffset
+WORD bignamesmap-currentoffset
+WORD bignamesmap-currentoffset
+WORD bignamesmap-currentoffset
+WORD bignamesmap-currentoffset
+WORD bignamesmap-currentoffset
+WORD bignamesmap-currentoffset
+WORD bignamesmap-currentoffset
+WORD bignamesmap-currentoffset
+WORD bignamesmap-currentoffset
+WORD smallnamesmap-currentoffset
+WORD smallnamesmap-currentoffset
+POP
+
+ALIGN 4
+smallnamesmap:
+SHORT 1 1 30 20
+#incbin "smallnamesmap.bin"
+
+ALIGN 4
+bignamesmap:
+SHORT 1 1 30 20
+#incbin "bignamesmap.bin"
+
+ALIGN 4
+smallnameslevel01:
+#incext png2dmp "smallnameslevel01.png"
+
+ALIGN 4
+smallnameslevel02:
+#incext png2dmp "smallnameslevel02.png"
+
+ALIGN 4
+smallnameslevel03:
+#incext png2dmp "smallnameslevel03.png"
+
+ALIGN 4
+smallnameslevel04:
+#incext png2dmp "smallnameslevel04.png"
+
+ALIGN 4
+smallnameslevel05:
+#incext png2dmp "smallnameslevel05.png"
+
+ALIGN 4
+smallnameslevel06:
+#incext png2dmp "smallnameslevel06.png"
+
+ALIGN 4
+smallnameslevel07:
+#incext png2dmp "smallnameslevel07.png"
+
+ALIGN 4
+smallnameslevel08:
+#incext png2dmp "smallnameslevel08.png"
+
+ALIGN 4
+smallnameslevel09:
+#incext png2dmp "smallnameslevel09.png"
+
+ALIGN 4
+smallnameslevel10:
+#incext png2dmp "smallnameslevel10.png"
+
+ALIGN 4
+smallnameslevel11:
+#incext png2dmp "smallnameslevel11.png"
+
+ALIGN 4
+smallnamesbonus01:
+#incext png2dmp "smallnamesbonus01.png"
+
+ALIGN 4
+smallnamesbonus02:
+#incext png2dmp "smallnamesbonus02.png"
+
+ALIGN 4
+smallnamesbonus03:
+#incext png2dmp "smallnamesbonus03.png"
+
+ALIGN 4
+smallnamesbonus04:
+#incext png2dmp "smallnamesbonus04.png"
+
+ALIGN 4
+smallnamesbonus05:
+#incext png2dmp "smallnamesbonus05.png"
+
+ALIGN 4
+smallnamesbonus06:
+#incext png2dmp "smallnamesbonus06.png"
+
+ALIGN 4
+smallnamesbonus07:
+#incext png2dmp "smallnamesbonus07.png"
+
+ALIGN 4
+bignameslevel01:
+#incext png2dmp "bignameslevel01.png"
+
+ALIGN 4
+bignameslevel02:
+#incext png2dmp "bignameslevel02.png"
+
+ALIGN 4
+bignameslevel03:
+#incext png2dmp "bignameslevel03.png"
+
+ALIGN 4
+bignameslevel04:
+#incext png2dmp "bignameslevel04.png"
+
+ALIGN 4
+bignameslevel05:
+#incext png2dmp "bignameslevel05.png"
+
+ALIGN 4
+bignameslevel06:
+#incext png2dmp "bignameslevel06.png"
+
+ALIGN 4
+bignameslevel07:
+#incext png2dmp "bignameslevel07.png"
+
+ALIGN 4
+bignameslevel08:
+#incext png2dmp "bignameslevel08.png"
+
+ALIGN 4
+bignameslevel09:
+#incext png2dmp "bignameslevel09.png"
+
+ALIGN 4
+bignameslevel10:
+#incext png2dmp "bignameslevel10.png"
+
+ALIGN 4
+bignameslevel11:
+#incext png2dmp "bignameslevel11.png"
+
+ALIGN 4
+bignamesbonus01:
+#incext png2dmp "bignamesbonus01.png"
+
+ALIGN 4
+bignamesbonus02:
+#incext png2dmp "bignamesbonus02.png"
+
+ALIGN 4
+bignamesbonus03:
+#incext png2dmp "bignamesbonus03.png"
+
+ALIGN 4
+bignamesbonus04:
+#incext png2dmp "bignamesbonus04.png"
+
+ALIGN 4
+bignamesbonus05:
+#incext png2dmp "bignamesbonus05.png"
+
+ALIGN 4
+bignamesbonus06:
+#incext png2dmp "bignamesbonus06.png"
+
+ALIGN 4
+bignamesbonus07:
+#incext png2dmp "bignamesbonus07.png"
+
+ALIGN 4
+smallnameslevel12:
+#incext png2dmp "smallnameslevel12.png"
+
+ALIGN 4
+smallnamesminigames:
+#incext png2dmp "smallnamesminigames.png"

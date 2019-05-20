@@ -1,0 +1,2 @@
+Ugh, disgusting... [0x8010]
+Stop, not now![0x8018]

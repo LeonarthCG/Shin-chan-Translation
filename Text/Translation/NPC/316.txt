@@ -1,0 +1,4 @@
+This area is[0x8000]
+pretty dangerous![0x8000]
+Be careful or you'll[0x8000]
+fall into a pit![0x8000]

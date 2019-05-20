@@ -1,0 +1,4 @@
+Uuh... [0x8008]
+[0x8000]
+You, too, are[0x800f]
+very handsome. [0x800c]

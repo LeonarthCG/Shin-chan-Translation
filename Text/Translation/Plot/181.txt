@@ -1,0 +1,4 @@
+Misae:[0x8006]
+Wait, what?[0x8017]
+What are you even[0x8017]
+talking about...[0x8017]

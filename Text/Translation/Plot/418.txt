@@ -1,0 +1,3 @@
+Welcome.[0x8010]
+You are a group, right?[0x8010]
+Thank you very much.[0x8010]

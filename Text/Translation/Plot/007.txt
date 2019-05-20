@@ -1,0 +1,4 @@
+Many thanks... [0x8013]
+[0x8000]
+Can you reach the lift[0x8014]
+switch with a butt poke?[0x8016]

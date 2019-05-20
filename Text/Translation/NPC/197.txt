@@ -1,0 +1,4 @@
+Huh... A blast door...[0x8018]
+[0x8018]
+The Action Beam will[0x8018]
+be useful for this.[0x8018]

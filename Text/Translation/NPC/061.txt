@@ -1,0 +1,4 @@
+Masao[0x8005]
+Level O6[0x8007]
+Normal[0x8006]
+Not completed[0x800b]

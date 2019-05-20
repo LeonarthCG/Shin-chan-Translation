@@ -1,0 +1,4 @@
+This floor breaks...[0x8016]
+There's an area below.[0x8016]
+But... Without the frog[0x8016]
+suit, it's dangerous.[0x8016]

@@ -1,0 +1,6 @@
+Have you been to the desk[0x8017]
+that is on the right?[0x8017]
+You can view your[0x8017]
+collection there.[0x8017]
+It grows as you collect[0x8017]
+more and more cards.[0x8017]
