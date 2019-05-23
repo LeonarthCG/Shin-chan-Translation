@@ -85,6 +85,10 @@ ORG $DA4054
 #incext png2dmp "pause/DA4054.png" //start resume
 ORG $CED080
 #incext png2dmp "pause/CED080.png" //trajes familia
+ORG $D9B574
+#incext png2dmp "pause/D9B574.png" //accept
+ORG $D9DF54
+#incext png2dmp "pause/D9DF54.png" //accept back
 
 // - start animation -
 ORG $502D90
