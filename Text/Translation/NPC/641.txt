@@ -1,3 +1,3 @@
-Boo-chan Cinemaland[0x8010]
+Boo-chan Cinema-Land[0x8010]
 Normal[0x8006]
-Cinemaland 2[0x8009]
+Cinema-Land 2[0x8009]

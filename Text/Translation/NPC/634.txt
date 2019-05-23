@@ -1,3 +1,3 @@
-Nene Cinemaland[0x800c]
+Nene Cinema-Land[0x800c]
 Normal[0x8006]
-Cinemaland 1[0x8009]
+Cinema-Land 1[0x8009]
